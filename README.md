@@ -56,6 +56,11 @@ Clone the repository.
 git clone https://github.com/amadeus4dev/amadeus-flight-booking-django.git
 cd amadeus-flight-booking-django
 ```
+Creating the .env file should same folder as the manage.py 
+for Django 3+
+
+call  
+`os.environ.get`
 
 Next create a virtual environment with [virtualenv](https://virtualenv.pypa.io/en/stable/installation.html) and install the dependencies.
 
